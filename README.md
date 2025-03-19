@@ -1,10 +1,22 @@
 # TSMS
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Coverage](https://codecov.io/gh/XueyuHu/TSMS/branch/main/graph/badge.svg)
+![Code Style: PEP8](https://img.shields.io/badge/code%20style-PEP8-orange)
 
-An AI-driven energy materials discovery framework that integrates high-throughput computations (HTCs)<sup>1</sup>, standardized experiments, and active learning.
+TSMS is an AI-driven energy materials discovery framework that integrates high-throughput computations (HTCs)<sup>1</sup>, standardized experiments, and active learning.
+
+- [Overview](#overview)
+- [Documentation](#documentation)
+- [System Requirements](#system-requirements)
+- [Installation Guide](#installation-guide)
+- [Setting up the development environment](#setting-up-the-development-environment)
+- [License](#license)
+- [Issues](https://github.com/your-repo/issues)
+
+# Overview
 ![New Microsoft PowerPoint Presentation](https://github.com/user-attachments/assets/818488df-3296-4768-be34-ec5d20106352)
-**T**wo-**S**tage **M**aterial **S**creening follows a hierarchical screening approach: First, HTCs densely sample computationally derived functional information to delineate potential regions of interest within an uncharted chemical space. Then, standardized experiments provide discrete sampling of promising candidates, iteratively guided by an active learning framework until the AI model achieves optimal accuracy. Finally, the AI-driven model then constructs a high-resolution topographic mapping of chemical space. Simultaneously, feature attribution methods identify the decisive factors governing high-dimensional properties, providing critical insights for rational material design.
+**T**wo-**S**tage **M**aterial **S**creening (TSMS) follows a hierarchical screening approach as shown in the above Figure: First, HTCs densely sample computationally derived functional information to delineate potential regions of interest within an uncharted chemical space. Then, standardized experiments provide discrete sampling of promising candidates, iteratively guided by an active learning framework until the AI model achieves optimal accuracy. Finally, the AI-driven model then constructs a high-resolution topographic mapping of chemical space. Simultaneously, feature attribution methods identify the decisive factors governing high-dimensional properties, providing critical insights for rational material design.
+
+
 
 # Usage
 **Training**

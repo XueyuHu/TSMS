@@ -1,6 +1,7 @@
 # TSMS
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Code Style: PEP8](https://img.shields.io/badge/code%20style-PEP8-orange)
+![Python Version](https://img.shields.io/badge/Python-3.10%2B-green?logo=python)
 
 TSMS is an AI-driven energy materials discovery framework that integrates high-throughput computations (HTCs)<sup>1</sup>, standardized experiments, and active learning.
 
@@ -10,8 +11,37 @@ TSMS is an AI-driven energy materials discovery framework that integrates high-t
 - [Reference](#Reference)
 
 # Overview
-![New Microsoft PowerPoint Presentation](https://github.com/user-attachments/assets/818488df-3296-4768-be34-ec5d20106352)
+<img src="https://github.com/user-attachments/assets/818488df-3296-4768-be34-ec5d20106352" width="50%">
+
 **T**wo-**S**tage **M**aterial **S**creening (TSMS) follows a hierarchical screening approach as shown in the above Figure: First, HTCs densely sample computationally derived functional information to delineate potential regions of interest within an uncharted chemical space. Then, standardized experiments provide discrete sampling of promising candidates, iteratively guided by an active learning framework until the AI model achieves optimal accuracy. Finally, the AI-driven model then constructs a high-resolution topographic mapping of chemical space. Simultaneously, feature attribution methods identify the decisive factors governing high-dimensional properties, providing critical insights for rational material design.
+
+
+# System Requirements
+## Hardware Requirements
+This software runs on any standard computer with a modern operating system.
+
+## Software Requirements
+### OS Requirements
+- Windows 10/11
+- Linux 9.4
+
+### Python Dependencies
+<code>TSMS</code> mainly depends on the Python scientific stack.
+```python
+sys
+json
+pandas
+numpy
+tqdm
+dataset
+warnings
+xgboost
+joblib
+sklearn
+shap
+argparse
+matplotlib
+```
 
 
 

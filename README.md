@@ -1,4 +1,7 @@
 # TSMS
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Coverage](https://codecov.io/gh/XueyuHu/TSMS/branch/main/graph/badge.svg)
+
 An AI-driven energy materials discovery framework that integrates high-throughput computations (HTCs)<sup>1</sup>, standardized experiments, and active learning.
 ![New Microsoft PowerPoint Presentation](https://github.com/user-attachments/assets/818488df-3296-4768-be34-ec5d20106352)
 **T**wo-**S**tage **M**aterial **S**creening follows a hierarchical screening approach: First, HTCs densely sample computationally derived functional information to delineate potential regions of interest within an uncharted chemical space. Then, standardized experiments provide discrete sampling of promising candidates, iteratively guided by an active learning framework until the AI model achieves optimal accuracy. Finally, the AI-driven model then constructs a high-resolution topographic mapping of chemical space. Simultaneously, feature attribution methods identify the decisive factors governing high-dimensional properties, providing critical insights for rational material design.

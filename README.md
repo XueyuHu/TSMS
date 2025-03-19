@@ -6,8 +6,8 @@
 TSMS is an AI-driven energy materials discovery framework that integrates high-throughput computations (HTCs)<sup>1</sup>, standardized experiments, and active learning.
 
 - [Overview](#Overview)
-- [System Requirements](#SystemRequirements)
-- [Installation Guide](#InstallationGuide)
+- [SystemRequirements](#SystemRequirements)
+- [InstallationGuide](#InstallationGuide)
 - [Demo](#Demo)
 - [Instructions for Use](#InstructionsforUse)
 - [Publication](#Publication)

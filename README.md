@@ -14,7 +14,8 @@ TSMS is an AI-driven energy materials discovery framework that integrates high-t
 - [Reference](#reference)
 
 # Overview
-<img src="https://github.com/user-attachments/assets/818488df-3296-4768-be34-ec5d20106352" width="60%">
+![New Microsoft PowerPoint Presentation1](https://github.com/user-attachments/assets/9928f7ec-18be-49f7-8255-2c2ba1ea8d07)
+
 
 **T**wo-**S**tage **M**aterial **S**creening (TSMS) follows a hierarchical screening approach as shown in the above Figure: First, HTCs densely sample computationally derived functional information to delineate potential regions of interest within an uncharted chemical space. Then, standardized experiments provide discrete sampling of promising candidates, iteratively guided by an active learning framework until the AI model achieves optimal accuracy. Finally, the AI-driven model then constructs a high-resolution topographic mapping of chemical space. Simultaneously, feature attribution methods identify the decisive factors governing high-dimensional properties, providing critical insights for rational material design.
 

@@ -61,7 +61,7 @@ matplotlib
 ### Three Critical Procedures
 **Training**
 ```python
-python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull
+python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -parm -seed 2023
 # Open fold-safe scaling
 python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -pred
 # GroupKFold

@@ -61,7 +61,7 @@ matplotlib
 ### Three Critical Procedures
 **Training**
 ```python
-python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -parm -seed 2023
+python ML_v2.py -model xgb -stage 1 -train Data/train_1.csv -test Data/test_1.csv -targ Ehull -seed 2023
 # Open fold-safe scaling
 python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -pred
 # GroupKFold
@@ -70,11 +70,11 @@ python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -pred 
 
 **Cross-Validation**
 ```python
-python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -pred -group_cv -num_split 5 -seed 2023 -n_jobs 1
+python ML_v2.py -model xgb -stage 1 -train Data/dataset_1.csv -targ Ehull -seed 2023 -test ""
 ```
 **Prediction**
 ```python
-python ML_v2.py -model xgb -stage 1 -train Data/train_1.csv -test Data/test_1.csv -targ Ehull -pred -drop -shap
+python ML_v2.py -model xgb -stage 1 -train Data/train.csv -test Data/test.csv -targ Ehull -seed 2023 -pth xxx
 ```
 
 ### Optional tags
